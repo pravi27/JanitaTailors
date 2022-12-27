@@ -1,0 +1,105 @@
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+img{
+	width:100%;
+	display: block;
+}
+.container{
+	width: 88vw;
+	margin: 0 auto;
+}
+.lg-title,
+.md-title,
+.sm-title{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding: 0.6rem 0;
+	text-transform: capitalize;
+}
+.lg-title{
+	font-size: 2.5rem;
+	font-weight: 500;
+	text-align: center;
+	padding: 1.3rem 0;
+	opacity: 0.9;
+}
+.md-title{
+	font-size: 2rem;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.sm-title{
+	font-weight: 300;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+.text-light{
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.5;
+	opacity: 0.5;
+	margin: 0.4rem 0;
+}
+.products{
+	background: #746162;
+	padding: 3.2rem 0;
+	
+}
+.products .text-light{
+	text-align: center;
+	width: 70%;
+	margin: 0.9rem auto;
+}
+.product{
+	margin: 2rem;
+	position: relative;
+}
+.product-content{
+	background: #636377;
+	padding: 3rem 0.5rem 2rem 0.5rem;
+	cursor: pointer;
+}
+.product-img{
+	background: green;
+	box-shadow: 0 0 20px red;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+	transition: background 0.5s ease;
+}
+.product-btns{
+	display: flex;
+	justify-content: center;
+	margin-top: 1.4rem;
+	opacity: 1;
+	transition: opacity 0.6s ease;
+	
+}
+.btn-cart, .btn-buy{
+	background: transparent;
+	border: 1px solid #0A0707;
+	padding: 0.8rem 0;
+	width: 125px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	transition: all 0.6s ease;
+	
+}
+.btn-cart{
+	background: #000000;
+	color: white;
+	
+}
+.btn-cart:hover{
+	background: blue;
+	
+}
+.btn-buy{
+	background: white;
+}
+.btn-buy:hover{
+	background: green;
+}

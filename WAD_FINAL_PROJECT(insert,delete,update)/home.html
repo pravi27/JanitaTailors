@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Janita Tailors</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="hero">
+		<div class="navb">
+			<img src="jt-removebg-preview.png" class="logo" alt="">
+			<div class="user">
+				<button type="submit"><a href="Explorepage.php">Explore</a></button>
+				<button type="submit"><a href="login.php">Login</a></button>
+
+			</div>
+	   </div>
+		<div class="container">
+			<div class="info">
+				<h1> JANITA TAILORS </h1>
+				<p> Specialist in all kind of uniforms and dresses.</p>
+
+				<input type="text" placeholder="Search">
+			
+			</div>
+		</div>
+		<div class="sliders">
+			<img src="left-removebg-preview.png" id="prev">
+			<div class="preview">
+				<img src="a1.jpg" class="active photos"> 
+				<img src="5130281.jpg" class="photos">
+				<img src="2489629.jpg" class="photos">
+				<img src="a5.jpg" class="photos">
+				<img src="a6.jpg" class="photos">
+				
+			</div>
+			<img src="right-removebg-preview.png" id="next">
+
+			</div>
+
+		
+	</div>
+	
+	<script>
+		var prev = document.getElementById("prev");
+		var next = document.getElementById("next");
+		var photos = document.getElementsByClassName("photos");
+		var hero = document.getElementById("hero");
+		
+		var backgroundImg = new Array (
+			"i1 (2).jpg",
+			"blueNew.jpg",
+			"Suitset.jpg",
+			"i5.jpg",
+			"i6.jpg",
+		
+		);
+		
+		let i=0;
+		next.onclick = function(){
+			
+			if(i<4){
+				hero.style.backgroundImage = 'url("'+backgroundImg[i+1]+'")';
+				photos[i+1].classList.add("active");
+				photos[i].classList.remove("active");
+			    i++;
+				
+			}
+			
+		}
+		prev.onclick = function(){
+			
+			if(i>0){
+				hero.style.backgroundImage = 'url("'+backgroundImg[i-1]+'")';
+				photos[i-1].classList.add("active");
+				photos[i].classList.remove("active");
+			    i--;
+				
+			}
+			
+		}
+		
+		
+	
+	
+	</script>
+
+</body>
+</html>

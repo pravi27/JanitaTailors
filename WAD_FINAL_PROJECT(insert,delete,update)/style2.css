@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+.sign-up{
+	width: 360px;
+	height: 620px;
+	margin: auto;
+	background-color: aliceblue;
+	border-radius: 3px;
+	
+}
+.login{
+	width: 360px;
+	height: 280px;
+	margin: auto;
+	border-radius: 3px;
+	background-color:#EBEBEB;
+	align-items: center;
+	backdrop-filter: blur(10px);
+	opacity: 0.9;
+	
+}
+
+h1{
+	text-align: center;
+	padding-top: 15px;
+}
+h4{
+	text-align: center
+}
+form{
+	width: 300px;
+	margin-left: 20px;
+}
+
+form label{
+	display: flex;
+	margin-top: 7px;
+	border: none;
+	border: 1px #BFBFBF; 
+	border-radius: 6px;
+	outline: none;
+}
+form input{
+	width: 100%;
+	padding: 7px;
+	border:none;
+	border: 1px solid #9F9F9F;
+	border-radius: 6px;
+	outline: none;
+	
+}
+
+input[type="submit"]{
+	width: 300px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: turquoise;
+	color: azure;
+	font-family: 18px;
+}
+
+p{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15px;
+}
+container{
+	text-align: center;
+	
+
+}
+button{
+	width: 300px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: turquoise;
+	color: azure;
+	font-family: 18px;
+}
+

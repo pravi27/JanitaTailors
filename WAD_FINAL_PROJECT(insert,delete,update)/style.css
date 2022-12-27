@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+#hero{
+	width: 100%;
+	height: 100vh;
+	background-image: url("i1 (2).jpg");
+    background-size: cover;
+	background-position: center;
+	position: relative
+}
+.navb{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	z-index: 10;
+}
+.navb .logo{
+	width: 60px;
+	margin: 30px 0;
+	cursor: pointer;
+}
+.user{
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+	
+}
+button{
+	padding: 8px 25px;
+	background: transparent;
+	outline: none;
+	border: 2px solid #454545;
+	border-radius: 20px;
+	color:#454545;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	align-items: left;
+}
+.user:a{
+	background: transparent;
+	outline: none;
+	border: 2px solid #454545;
+	border-radius: 20px;
+	color:#454545;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	align-items: left;
+}
+.container{
+	width: 50%;
+	height: 100vh;
+	background: rgba(86,86,86,0.3);
+	backdrop-filter: blur(10px);
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+}
+.info{
+	width: 550px;
+	color:#0B0A0A;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.info h1{
+	font-size: 60px;
+	letter-spacing: 10px;
+}
+.info p{
+	color:black;
+	font-size: 17px;
+	margin: 20px 0;
+	line-height: 18px;
+}
+.info input{
+	width:50;
+	padding: 8px 10px;
+	outline: none;
+	border: 2px solid #0B0A0A;
+	border-radius: 20px;
+	background: transparent;
+	font-family: 12px;
+}
+::placeholder{
+	color: black;
+}
+.sliders{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 30px;
+	bottom: 50px;
+}
+#prev, #next{
+	width:20px;
+	cursor: pointer;
+}
+.preview{
+	display: flex;
+	align-items: center;
+	margin: 0 60px;
+}
+.preview img{
+	width: 60px;
+	margin: 0 10px;
+	opacity: 0.4;
+	
+}
+.preview .active{
+	display: block;
+	border: 3px solid #fff;
+	width: 100px;
+	opacity: 1;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  align-content: left;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.formbox{
+	align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+
+
+
+
+.btn1{
+	
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: bold;
+	background: #1E90FF;
+	width: 160px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	
+}
+.btn1:hover .btn:focus, .btn1:active{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	
+}
+
+.btn2{
+	
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: bold;
+	background: #1E90FF;
+	width: 160px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	
+}
+.btn2:hover .btn:focus, .btn2:active{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	
+}
+
+.btn3{
+	
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: bold;
+	background: #1E90FF;
+	width: 160px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	
+}
+.btn3:hover .btn:focus, .btn3:active{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	
+}
+
+.btn4{
+	
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: bold;
+	background: #1E90FF;
+	width: 160px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	
+}
+.btn4:hover .btn:focus, .btn4:active{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	
+}
+
+.btn5{
+	
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: bold;
+	background: #1E90FF;
+	width: 160px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	
+}
+.btn5:hover .btn:focus, .btn5:active{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	
+}
